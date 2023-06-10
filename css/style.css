@@ -779,6 +779,10 @@ input.mail_text::placeholder {
     width: 100%; 
   }
 
+  .button-link {
+    color: white;
+    text-decoration: underline !important;
+  }
 
 
 

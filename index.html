@@ -25,8 +25,8 @@
    <meta name="author" content="Edgardo Torres">
    <meta name="google-site-verification" content="JUJ9JifEfDv3L40NbusTgplQ1WxkjB3jbzIsbJmaUF8" />
    <!-- owl carousel style -->
-   <!-- <link rel="stylesheet" type="text/css"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css" /> -->
+   <link rel="stylesheet" type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css" />
    <!-- bootstrap css -->
    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
    <!-- style css -->
@@ -36,14 +36,14 @@
    <!-- fevicon -->
    <link rel="icon" href="images/fevicon.png" type="image/gif" />
    <!-- Scrollbar Custom CSS -->
-   <!-- <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css"> -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
    <!-- Tweaks for older IEs-->
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
    <!-- owl stylesheets -->
-   <!-- <link rel="stylesheet" href="css/owl.carousel.min.css">
+   <link rel="stylesheet" href="css/owl.carousel.min.css">
    <link rel="stylesheet" href="css/owl.theme.default.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
-      media="screen"> -->
+      media="screen">
 </head>
 
 <body>
@@ -62,6 +62,9 @@
                </li> -->
                <li class="nav-item">
                   <a class="nav-link" href="#NOSOTROS">NOSOTROS</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#CLIENTES">CLIENTES</a>
                </li>
                <li class="nav-item">
                   <a class="nav-link" href="#TRABAJAMOS">¿CÓMO TRABAJAMOS?</a>
@@ -93,6 +96,7 @@
             <ul>
                <!-- <li><a href="index.html">INICIO</a></li> -->
                <li><a href="#NOSOTROS">NOSOTROS</a></li>
+               <li><a href="#CLIENTES">CLIENTES</a></li>
                <li><a href="#TRABAJAMOS">¿CÓMO TRABAJAMOS?</a></li>
                <!-- <li><a href="services.html">Services</a></li> -->
                <li><a href="#CONTACTO">CONTACTO</a></li>
@@ -193,29 +197,28 @@
    </div>
    <!--services section end -->
    <!--software section start -->
-   <!-- <div class="software_section layout_padding">
+   <div id="CLIENTES" class="software_section layout_padding">
       <div class="container">
-         <h1 class="software_taital">Our Software</h1>
-         <p class="software_text">There are many variations of passages of Lorem Ipsum available, but the majority have
-            suffered alteration in some form, by injected humour</p>
+         <h2 class="software_taital">NUESTROS CLIENTES</h2>
+         <p class="software_text">Algunas personas que confían en nosotros.</p>
          <div class="software_section_2 layout_padding">
             <div class="owl-carousel">
                <div>
-                  <img src="images/img-6.png" class="image_6">
-                  <h4 class="ipsum_text">Ipsum available,</h4>
+                  <img src="images/grupreysa.png" class="image_6">
+                  <h4 class="ipsum_text"><a class="button-link" href="https://grupreysa.com.mx" target="_blank">grupreysa.com.mx</a></h4>
                </div>
                <div>
-                  <img src="images/img-7.png" class="image_6">
-                  <h4 class="ipsum_text">Ipsum available,</h4>
+                  <img src="images/logistipaq.png" class="image_6">
+                  <h4 class="ipsum_text"><a class="button-link" href="https://logistipaq.com" target="_blank">logistipaq.com</a></h4>
                </div>
                <div>
-                  <img src="images/img-8.png" class="image_6">
-                  <h4 class="ipsum_text">Ipsum available,</h4>
+                  <img src="images/pescadordehombres.png" class="image_6">
+                  <h4 class="ipsum_text"><a class="button-link" href="https://pescadordehombres.com.mx" target="_blank">pescadordehombres.com.mx</a></h4>
                </div>
             </div>
          </div>
       </div>
-   </div> -->
+   </div>
    <!--software section end -->
    <!--works section start -->
    <div class="works_section layout_padding">
@@ -338,33 +341,33 @@
    <script src="js/jquery.min.js"></script>
    <script src="js/popper.min.js"></script>
    <script src="js/bootstrap.bundle.min.js"></script>
-   <!-- <script src="js/jquery-3.0.0.min.js"></script> -->
-   <!-- <script src="js/plugin.js"></script> -->
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <script src="js/plugin.js"></script>
    <!-- sidebar -->
-   <!-- <script src="js/jquery.mCustomScrollbar.concat.min.js"></script> -->
-   <!-- <script src="js/custom.js"></script> -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
    <!-- javascript -->
-   <!-- <script src="js/owl.carousel.js"></script> -->
-   <!-- <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script> -->
-   <!-- <script type="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script> -->
+   <script src="js/owl.carousel.js"></script>
+   <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   <script type="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
    <script>
-      // var $owl = $('.owl-carousel');
+       var $owl = $('.owl-carousel');
 
-      // $owl.children().each(function (index) {
-      //    $(this).attr('data-position', index); // NB: .attr() instead of .data()
-      // });
+      $owl.children().each(function (index) {
+         $(this).attr('data-position', index); //NB: .attr() instead of .data()
+      });
 
-      // $owl.owlCarousel({
-      //    center: true,
-      //    loop: true,
-      //    items: 3,
-      // });
+       $owl.owlCarousel({
+          center: true,
+          loop: true,
+          items: 3,
+       });
 
-      // $(document).on('click', '.owl-item>div', function () {
-      //    // see https://owlcarousel2.github.io/OwlCarousel2/docs/api-events.html#to-owl-carousel
-      //    var $speed = 300;  // in ms
-      //    $owl.trigger('to.owl.carousel', [$(this).data('position'), $speed]);
-      // });
+       $(document).on('click', '.owl-item>div', function () {
+         //see https://owlcarousel2.github.io/OwlCarousel2/docs/api-events.html#to-owl-carousel
+          var $speed = 300;  // in ms
+          $owl.trigger('to.owl.carousel', [$(this).data('position'), $speed]);
+       });
 
    </script>
 </body>
